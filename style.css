@@ -8,8 +8,10 @@
 }
 
 body {
-
-    background-color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+    zoom: 2
 
 }
 
@@ -57,4 +59,38 @@ body {
 .informacao {
     font-size: 15px;
 
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+
+}
+footer#rodape p{
+    text-align: center;
+}
+
+
+header#cabecalho img#icone {
+    position: relative;
+    left: 20 px;
+    top: 25 px;
+}
+header#cabecalho {
+    border-bottom: 1px #606060 double;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+    text-align-last: center;
+
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 15pt;
+    padding: 10px;
+    margin-top: 5px;
+    text-align-last: center;
+    background: #606060;
 }
